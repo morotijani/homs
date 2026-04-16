@@ -95,6 +95,10 @@ $stats = [
                         <i class="fa-solid fa-id-card fa-fw me-2 text-primary"></i> <span class="fw-medium">Guest Records</span>
                         <div class="small text-muted ms-4">View comprehensive guest profiles & ID info.</div>
                     </a>
+                    <a href="reports.php" class="list-group-item list-group-item-action py-3 mb-2 rounded-bottom">
+                        <i class="fa-solid fa-chart-pie fa-fw me-2 text-success"></i> <span class="fw-medium">Analytical Reports</span>
+                        <div class="small text-muted ms-4">View occupancy, revenue, and VIP guest metrics.</div>
+                    </a>
                 </div>
             </div>
         </div>
