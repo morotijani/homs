@@ -1,0 +1,108 @@
+:root {
+    --primary-color: #4A00E0;
+    --secondary-color: #8E2DE2;
+    --bg-light: #f4f6fb;
+    --text-dark: #2c3e50;
+    --text-muted: #6c757d;
+    --white: #ffffff;
+    --border-radius: 12px;
+    --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+body {
+    background-color: var(--bg-light);
+    font-family: 'Inter', sans-serif;
+    color: var(--text-dark);
+}
+
+.navbar {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)) !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    opacity: 0.9;
+    transition: opacity 0.3s;
+}
+
+.nav-link:hover {
+    opacity: 1;
+}
+
+.card {
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: var(--white);
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: var(--white);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    font-weight: 600;
+    padding: 1.25rem 1.5rem;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1.5rem;
+    font-weight: 600;
+    transition: opacity 0.3s;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    opacity: 0.9;
+}
+
+.form-control, .form-select {
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    border: 1px solid #dee2e6;
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: 0 0 0 3px rgba(74, 0, 224, 0.2);
+    border-color: var(--primary-color);
+}
+
+.page-title {
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+}
+
+/* Badge Styling */
+.badge-confirmed { background-color: #10B981; }
+.badge-pending { background-color: #F59E0B; }
+.badge-cancelled { background-color: #EF4444; }
+
+.table {
+    vertical-align: middle;
+}
+.table thead th {
+    border-bottom: none;
+    background-color: #f8f9fa;
+    color: var(--text-muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}

@@ -1,0 +1,13 @@
+<!-- MAIN CONTENT ENDS HERE -->
+</div> <!-- End of .container.main-content -->
+
+<footer class="text-center text-muted py-4 mt-5">
+    <div class="container">
+        <p class="mb-0">&copy; <?= date("Y") ?> LuxeStay Hotel Management System. Final Year Project.</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

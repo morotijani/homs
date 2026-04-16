@@ -1,0 +1,42 @@
+i am building a hotel management system with php mysql for my client a final year student. 
+
+Core Modules and Features
+Specify which functionalities your client requires for their final year project. Common modules include:
+
+1. User Management: Roles like Admin (full control), Receptionist (bookings/check-ins), and Customer (viewing rooms)Room Management: Categories (Single, Deluxe, Suite), pricing, and real-time availability
+
+2. Room Management: Categories (Single, Deluxe, Suite), pricing, and real-time availability 
+
+3. Booking System: Online reservations, date range selection, and status tracking (Pending, Confirmed, Cancelled) 
+
+4. Billing & Payments: Automated invoice generation and payment method tracking (Cash, Card, UPI)
+
+5. Guest Records: Storing names, contact info, and ID proof for security
+
+6. Reporting: Occupancy rates, revenue, and guest statistics
+
+Database Design
+
+Create an Entity-Relationship Diagram (ERD) and the corresponding SQL schema. Key tables include:
+
+1. Users (user_id, username, password (hashed), role)
+
+2. Rooms (room_id, room_type, price_per_night, status (Available/Occupied).)
+
+3. Bookings (booking_id, user_id, room_id, check_in, check_out, total_amount)
+
+4. Payments (payment_id, booking_id, amount, payment_status)
+
+NOTE: all database table has to have createdAt and updatedAt columns
+
+Technology Stack
+
+Frontend: HTML, CSS, Bootstrap, JavaScript (or a framework like React/Vue if preferred) // which one is best? 
+
+
+Backend: PHP
+
+Database: MySQL
+
+Security Considerations
+Implement proper authentication, authorization, and protection against common vulnerabilities like SQL injection and XSS.
